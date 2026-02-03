@@ -21,3 +21,35 @@ Flutter приложение для демонстрации минимальн�
 -   ✅ Имитация покупки премиум-доступа  
 -   ✅ Локальное хранение данных  
 -   ✅ Обработка ошибок
+
+## Структура 
+
+lib/
+├── core/
+│   ├── enums/
+│   ├── errors/
+│   ├── network/
+│   ├── secure_storage/
+├── feature/
+    ├──data/
+    │   ├── datasources/
+    │   │   ├── local/
+    │   │   └── remote/
+    │   ├── models/
+    │   └── repositories/
+    ├── domain/
+    │   ├── entities/
+    │   ├── repositories/
+    │   └── usecases/
+    └── presentation/
+        ├── app/
+        ├── architecture/
+        ├── pages/
+        ├── providers/
+        └── widgets/
+
+## Что бы я улучшил?
+
+-   Реализовал бы техническую задумку по созданию VPN приложения
+-   Реализовал бы мультиязычность и смену тем (светлая и тёмная)
+-   Улучшил бы UI и добавил бы больше анимаций
