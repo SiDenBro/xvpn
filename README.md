@@ -1,16 +1,21 @@
-# xvpn
+# X XPV
 
-A new Flutter project.
+Flutter приложение для демонстрации минимальных навыков разработки ПО
 
-## Getting Started
+## Зависимости
+flutter_riverpod - State Managment & DI
+dio - HTTP-клиент
+hive - локальное хранилище
+flutter_svg - взаимодействие с svg файлами
+dartz - Right-Left Generics механика
+flutter_spinkit - Виджеты загрузки страницы
+flutter_staggered_animations - анимация страничных блоков
+introduction_screen - onboarding 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Что реализовано
+✅ Все основные требования ТЗ
+✅ Провайдеры для управления состоянием
+✅ Разделение на data/domain/presentation (Clean Architecture)
+✅ Имитация покупки премиум-доступа
+✅ Локальное хранение данных
+✅ Обработка ошибок
