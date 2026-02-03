@@ -1,0 +1,3 @@
+class XConfig {
+  XConfig._();
+}

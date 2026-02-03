@@ -1,0 +1,4 @@
+enum PremiumStatus {
+  activated,
+  inactivated,
+}

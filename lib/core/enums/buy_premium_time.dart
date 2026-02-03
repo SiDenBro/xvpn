@@ -1,0 +1,4 @@
+enum BuyPremiumTime {
+  mounth,
+  year,
+}
