@@ -25,37 +25,37 @@ Flutter приложение для демонстрации минимальн�
 ## Структура 
 
 lib/  
-├── core/
-│   ├── enums/
-│   ├── errors/
-│   ├── network/
-│   ├── secure_storage/
-├── feature/
-│   ├──data/
-│   │   ├── datasources/
-│   │   │   ├── local/
-│   │   │   └── remote/
-│   │   ├── models/
-│   │   └── repositories/
-│   ├── domain/
-│   │   ├── entities/
-│   │   ├── repositories/
-│   │   └── usecases/
-│   └── presentation/
-│       ├── app/
-│       ├── architecture/
-│       ├── pages/
-│       ├── providers/
-│       └── widgets/
-├── utils/
-│       ├── constants/
-│       ├── handlers/
-│       ├── theme/
-│       ├── validation/
-│       └── widgets/
-├── app.dart
-├── config.dart
-└── main.dart
+├── core/  
+│   ├── enums/  
+│   ├── errors/  
+│   ├── network/  
+│   ├── secure_storage/  
+├── feature/  
+│   ├──data/  
+│   │   ├── datasources/  
+│   │   │   ├── local/  
+│   │   │   └── remote/  
+│   │   ├── models/  
+│   │   └── repositories/  
+│   ├── domain/  
+│   │   ├── entities/  
+│   │   ├── repositories/  
+│   │   └── usecases/  
+│   └── presentation/  
+│       ├── app/  
+│       ├── architecture/  
+│       ├── pages/  
+│       ├── providers/  
+│       └── widgets/  
+├── utils/  
+│       ├── constants/  
+│       ├── handlers/  
+│       ├── theme/  
+│       ├── validation/  
+│       └── widgets/  
+├── app.dart  
+├── config.dart  
+└── main.dart  
 
 ## Что бы я улучшил?
 
